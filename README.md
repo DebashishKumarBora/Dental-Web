@@ -53,7 +53,7 @@ All images use **free, commercial-license stock** (real portraits via randomuser
 ## Make it a client's site in about 30 minutes
 
 1. **Rebrand:** find-and-replace "Brightwell", update the address, phone, hours, and the announcement offer.
-2. **Recolor:** change a handful of CSS variables at the top (`--teal`, `--mint`, `--coral`) and the whole site re-themes.
+2. **Recolor:** change a handful of CSS variables at the top (`--blue`, `--sky`, `--coral`) and the whole site re-themes.
 3. **Swap the photos:** replace the image URLs with the client's real team headshots, office photos, and (with permission) patient smiles. Keep sizes similar.
 4. **Real reviews:** paste the client's actual Google review text and reviewer names.
 5. **Wire the booking form** to their email, booking system, or a Calendly link. This is where your local, Google Business Profile, and Google Ads skills upsell naturally: you're selling booked patients, not just a website.
@@ -61,9 +61,15 @@ All images use **free, commercial-license stock** (real portraits via randomuser
 
 ## Tech
 
-Single HTML file. Inline CSS and JavaScript, no frameworks, no build, no backend. Images are free-license stock loaded from their CDNs (the only external dependency). Fonts: DM Serif Display + Manrope. Mobile-first, verified zero horizontal overflow from 360px to 1440px, no JavaScript errors.
+Single HTML file. Inline CSS and JavaScript, no frameworks, no build, no backend. Images are free-license stock loaded from their CDNs (the only external dependency). Fonts: DM Serif Display + Manrope. Palette: a medical blue scheme (muted navy, powder blue, ice grey) with a warm coral call-to-action, the trust-building combination proven for dental and healthcare sites. Mobile-first, verified zero horizontal overflow from 360px to 1440px, no JavaScript errors.
 
+## Deploy
 
+A `.nojekyll` file is already included, so GitHub Pages will serve it cleanly.
+
+1. Public repo (e.g. `brightwell-dental`), upload everything including the hidden `.nojekyll`.
+2. Settings > Pages > Deploy from a branch > `main` > `/root`.
+3. Open the live URL in an Incognito window. The photos load automatically.
 
 ---
 
