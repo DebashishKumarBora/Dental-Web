@@ -63,13 +63,7 @@ All images use **free, commercial-license stock** (real portraits via randomuser
 
 Single HTML file. Inline CSS and JavaScript, no frameworks, no build, no backend. Images are free-license stock loaded from their CDNs (the only external dependency). Fonts: DM Serif Display + Manrope. Mobile-first, verified zero horizontal overflow from 360px to 1440px, no JavaScript errors.
 
-## Deploy
 
-A `.nojekyll` file is already included, so GitHub Pages will serve it cleanly.
-
-1. Public repo (e.g. `brightwell-dental`), upload everything including the hidden `.nojekyll`.
-2. Settings > Pages > Deploy from a branch > `main` > `/root`.
-3. Open the live URL in an Incognito window. The photos load automatically.
 
 ---
 
